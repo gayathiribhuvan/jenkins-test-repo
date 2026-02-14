@@ -1,10 +1,9 @@
-const assert = require('chai').assert;
+import { expect } from 'chai';
+import { add } from '../index.js';
 
-describe('Sample Test', function () {
-
-  it('should return true', function () {
-    assert.equal(true, true);
-  });
-
+describe('Addition Test', function () {
+    it('should return 5 when adding 2 + 3', function () {
+        expect(add(2, 3)).to.equal(5);
+    });
 });
-// trigger build
+
