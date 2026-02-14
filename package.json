@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js",
     "test": "mocha"
   },
   "repository": {
@@ -17,8 +16,9 @@
   "bugs": {
     "url": "https://github.com/gayathiribhuvan/jenkins-test-repo/issues"
   },
-   "homepage": "https://github.com/gayathiribhuvan/jenkins-test-repo#readme",
+  "homepage": "https://github.com/gayathiribhuvan/jenkins-test-repo#readme",
   "devDependencies": {
+    "chai": "^6.2.2",
     "mocha": "^11.7.5"
   }
 }
