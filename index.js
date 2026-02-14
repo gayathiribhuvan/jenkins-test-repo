@@ -1,3 +1,8 @@
+function add(a, b) {
+    return a + b;
+}
+
 console.log("CI Build Successful!");
-// trigger
-//CI  trigger Sat Feb 14 10:08:32 AM IST 2026
+
+module.exports = add;
+
