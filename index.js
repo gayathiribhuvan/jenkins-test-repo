@@ -4,5 +4,6 @@ function add(a, b) {
 
 console.log("CI Build Successful!");
 
-module.exports = add;
+module.exports = { add };
+
 
